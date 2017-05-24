@@ -38,7 +38,7 @@ defined('MOODLE_INTERNAL') || die();
  * @author     Stacey Walker <stacey@catalyst-eu.net>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class signup extends \core\event\base {
+class signup_created extends \core\event\base {
 
     /**
      * Init method.
@@ -85,7 +85,7 @@ class signup extends \core\event\base {
      * @return array|null
      */
     protected function get_legacy_logdata() {
-        return array($this->courseid, $this->objecttable, 'signup', 'signup.php?s=' . $this->objectid,
+        return array($this->courseid, $this->objecttable, 'signup_created', 'signup.php?s=' . $this->objectid,
             $this->objectid, $this->contextinstanceid);
     }
 

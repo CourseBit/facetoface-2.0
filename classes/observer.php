@@ -77,7 +77,7 @@ class mod_facetoface_observer {
             require_once($CFG->dirroot . '/mod/facetoface/lib.php');
 
             $facetoface = $event->get_record_snapshot('facetoface', $event->other['instanceid']);
-            facetoface_instance_created($event->get_context(), $forum);
+            //facetoface_instance_created($event->get_context(), $forum);
         }
     }
 }

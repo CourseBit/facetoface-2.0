@@ -31,7 +31,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'mod_facetoface';
-$plugin->version   = 2017040900;
-$plugin->requires  = 2016120502;
-$plugin->release   = '3.2.0 (Build: 2017040900)';
-$plugin->maturity  = MATURITY_ALPHA;
+$plugin->version   = 2017052300;
+$plugin->requires  = 2016052306;
+$plugin->release   = '3.1.0 (Build: 2017052300)';
+$plugin->maturity  = MATURITY_STABLE;
