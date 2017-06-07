@@ -17,7 +17,7 @@ table.inlinetable {
     border: 0;
 }
 tr.highlight td.cell {
-    background-color: #AAFFAA;
+    background-color: #efefef;
 }
 a.f2fsessionlinks, td.f2fsessionnotice, span.f2fsessionnotice {
     font-size: 11px;
